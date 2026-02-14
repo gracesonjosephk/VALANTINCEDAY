@@ -158,12 +158,14 @@ body{
 /* message appears */
 .msg{
   position:absolute;
-  top:290px;            /* BELOW the heart */
-  right:40px;           /* ALIGN with heart container */
-  width:360px;          /* SAME width as heart */
+  right:40px;
+  bottom:25px;          /* ✅ instead of top */
+  width:360px;
   text-align:center;
 
-  font-size:48px;
+  font-size:44px;       /* slightly smaller to be safe */
+  line-height:1.05;     /* ✅ tighter line spacing */
+
   font-weight:700;
   color:#ff5b8f;
 
