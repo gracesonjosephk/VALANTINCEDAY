@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heart Of Love</title>
+  <h2 class="subtitle">
+  I don’t have the money to buy you all the flowers you deserve yet,  
+  so I made this instead. One day I will buy you one thousand roses.  
+  I promise.
+  </h2>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 class="title">Heart Of Love</h1>
+
+  <div class="card" id="card">
+
+    <!-- Kid drawing (SVG) -->
+    <svg class="kid" viewBox="0 0 220 220">
+      <!-- head -->
+      <path class="stroke p1" d="M70 70 C70 35, 150 35, 150 70 C150 115, 70 115, 70 70" />
+      <!-- body -->
+      <path class="stroke p2" d="M85 115 L85 175 Q110 190 135 175 L135 115" />
+      <!-- left leg -->
+      <path class="stroke p3" d="M95 175 L95 205" />
+      <!-- right leg -->
+      <path class="stroke p4" d="M125 175 L125 205" />
+      <!-- left arm -->
+      <path class="stroke p5" d="M85 130 L55 150" />
+      <!-- right arm pointing -->
+      <path class="stroke p6" d="M135 130 L175 115" />
+      <!-- hand (2 fingers) -->
+      <path class="stroke p7" d="M175 115 L195 105" />
+      <path class="stroke p8" d="M175 115 L195 120" />
+      <!-- face: eyes -->
+      <path class="stroke p9" d="M95 80 L95 80" />
+      <path class="stroke p10" d="M125 80 L125 80" />
+      <!-- smile -->
+      <path class="stroke p11" d="M100 92 Q110 105 120 92" />
+
+      <!-- small heart near hand -->
+      <text class="handHeart hh" x="198" y="112">♥</text>
+    </svg>
+
+    <!-- hearts container -->
+    <div class="hearts" id="hearts"></div>
+
+    <!-- message (changed text) -->
+    <div class="msg" id="msg">Happy Valentine's Day</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
